@@ -1,0 +1,68 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+:root {
+  --clr-grayish-blue: hsl(237, 18%, 59%);
+  --clr-soft-red: hsl(345, 95%, 68%);
+  --clr-nt-white: hsl(0, 0%, 100%);
+  --clr-nt-dark-desturated-blue: hsl(236, 21%, 26%);
+  --clr-nt-very-dark-blue-1: hsl(235, 16%, 14%);
+  --clr-nt-very-dark-blue-2: hsl(234, 17%, 12%);
+  // --clr-app-background: rgb(35, 29, 43);
+  --clr-app-background: linear-gradient(
+    to top,
+    rgb(35, 29, 43) 20%,
+    hsl(234, 17%, 12%) 100%
+  );
+  --p-font-size: 14px;
+  --border-radius: 10px;
+}
+
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  margin: 0;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+span,
+button,
+input,
+div {
+  font-family: "Red Hat Text", sans-serif;
+  font-weight: 700;
+}
+
+/* red-hat-text-regular - latin */
+@font-face {
+  font-family: "Red Hat Text";
+  font-style: normal;
+  font-weight: 400;
+  src: local(""),
+    url("./fonts/red-hat-text-v10-latin-regular.woff2") format("woff2"),
+    /* Chrome 26+, Opera 23+, Firefox 39+ */
+      url("./fonts/red-hat-text-v10-latin-regular.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* red-hat-text-700 - latin */
+@font-face {
+  font-family: "Red Hat Text";
+  font-style: normal;
+  font-weight: 700;
+  src: local(""),
+    url("./fonts/red-hat-text-v10-latin-700.woff2") format("woff2"),
+    /* Chrome 26+, Opera 23+, Firefox 39+ */
+      url("./fonts/red-hat-text-v10-latin-700.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
