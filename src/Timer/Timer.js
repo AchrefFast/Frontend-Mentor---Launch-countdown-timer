@@ -2,7 +2,7 @@ import Segment from "./Segment";
 import classes from "./Timer.module.scss";
 import { useState, useEffect } from "react";
 // const PLANNED_DATE = new Date("2022-05-30").getTime();
-const PLANNED_DATE = 770450000 + new Date().getTime();
+const PLANNED_DATE = 773790000 + new Date().getTime();
 
 const Timer = (props) => {
     const [counter, setCounter] = useState(
